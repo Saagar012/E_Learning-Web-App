@@ -1,0 +1,218 @@
+
+@media screen and (max-device-width: 1700px) {
+    #c_edit_r form button {
+        position: absolute;
+        top: 58%;
+        left: 79%;
+    }
+    #c_edit_r {
+        z-index: -100;
+        width: 75%;
+        margin-left: 22%;
+    }
+    #c_edit_l {
+        width: 22%;
+        }
+}
+
+@media screen and (max-device-width: 1250px) {
+    #c_img {
+        width: 68%;
+        margin: -16% 0% 2% 30%;
+        
+    }
+    #c_edit_r form button {
+        position: absolute;
+        top: 52%;
+        left: 83%;
+    }
+}
+@media screen and (max-device-width: 1210px) {
+    #c_img {
+        width: 68%;
+        margin: -14% 0% 2% 30%;
+        
+    }
+    #c_edit_r form button {
+        position: absolute;
+        top: 56%;
+        left: 83%;
+    }
+}
+@media screen and (max-device-width: 1175px) {
+    #c_edit_l {
+        width: 24%;
+    }
+    #c_img {
+        width: 60%;
+        margin: -14% 0% 2% 40%;
+    }
+    #c_edit_r form button {
+        position: absolute;
+        top: 58%;
+        left: 85%;
+    }
+}
+
+@media screen and (max-device-width: 1080px) {
+    #c_edit_l {
+        width: 25%;
+    }
+    #c_edit_r {
+        margin-left: 23%;
+    }
+    #c_edit_r form button {
+        top: 61%;
+    }
+
+    #c_edit_l a {
+    font-size: 15px;
+    
+}
+#c_edit_l h1 {
+    font-size: 20px;
+
+}
+}
+@media screen and (max-device-width: 955px) {
+    #c_edit_r {
+        margin-left: 24%;
+    }
+    #c_edit_l {
+        width: 26%;
+    }    
+}
+
+@media screen and (max-device-width: 700px) {
+    #c_edit_r form img {
+
+        height: 260px;
+        width: 50%;
+    }
+    #c_img {
+        width: 90%;
+        margin: 2% 0% 2% 2%;
+    }
+    #c_edit_r form button {
+        top: 96%;
+        left: 72%;
+        width: 18%;
+    }
+}
+@media screen and (max-device-width: 600px) {
+    #c_edit_l {
+        width: 32%;
+    }
+    #c_edit_r {
+        margin-left: 30%;
+    }
+    #c_edit_l a {
+        font-size: 17px;
+    }
+    #c_edit_input {
+        width: 90%;
+        margin: 0% 2% 0% 1%;
+    
+    }
+    ::placeholder{
+        font-size: 20px;
+    }
+    #c_edit_l h1 {
+        font-size: 22px;
+    }
+    #c_edit_l a {
+        font-size: 18px;
+    }
+    #c_edit_r form button {
+        font-size: 19px;
+    }
+    #c_edit_l button {
+     
+        font-size: 20px;
+    }
+}
+@media screen and (max-device-width: 500px) {
+    #header {
+        height: 70px;
+       
+    }
+    #title h2 {
+    
+        line-height: 70px;
+        
+    }
+    #c_edit_l {
+        width: 34%;
+    
+    }
+    #c_edit_l a {
+        font-size: 20px;
+    }
+    #c_edit_r {
+        margin-left: 32%;
+    }
+    #c_edit_r form span {
+        font-size: 18px;
+        color: #74889e;
+        position: absolute;
+        margin-right: 7%;
+        top: 90%;
+        left: 5%;
+    }
+    #c_img {
+        width: 90%;
+        margin: 14% 0% 2% 2%;
+    }
+    #c_edit_r form button {
+        top: 112%;
+        left: 71%;
+        width: 16%;
+    }
+    #c_img {
+        width: 87%;
+        margin: 14% 0% 2% 2%;
+    }
+    #logo h2 a {
+        font-size: 23px;
+     
+        margin-left: 44px;
+        line-height: 72px;
+    }
+    #link h3 button {
+        font-size: 18px;
+        line-height: 41px;
+      
+    }
+}
+
+@media screen and (max-device-width: 420px) {
+
+    #c_edit_r form span {
+        font-size: 19px;
+
+    }
+    #c_img {
+        height: 37px;
+        padding-top: 7px;
+     
+        margin: 16% 0% 2% 2%;
+    }
+    #c_edit_r form span {
+        margin-right: 10%;
+        top: 90%;
+        left: 5%;
+    }
+    #c_edit_r form button {
+        top: 116%;
+      
+    }
+    #c_edit_l a {
+        font-size: 21px;
+    }
+    #c_edit_l h1 {
+        font-size: 23px;
+    }
+    #title h2 {
+        font-size: 22px;
+    }
+}

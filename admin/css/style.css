@@ -1,0 +1,220 @@
+/*   CSS DOCUMENT      */
+
+*{margin:0;padding:0;box-sizing: border-box;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+#header{width: 100%; height: 60px; background: #0b0c0e;}
+
+#logo{width: 20%; height: 60px; float: left; }
+#logo h2{text-align: center;line-height: 60px;}
+#logo h2 a{text-decoration: none; color: #f2f8ff; font-size: 22px;text-shadow: 3px 3px 3px rgb(126, 89, 89); }
+
+#title{width: 60%; height: 60px; float: left;}
+#title h2{color:#f2f8ff;font-size: 20px; text-align: center;line-height: 60px;text-shadow: 3px 3px 3px #000;}
+
+#link{width: 20%; height: 60px; float: left;}
+#link h3 {text-align: center;line-height: 60px; }
+#link h3 button{background-color:black;outline: none;font-size: 16px;font-weight: 550;color: white; padding: 8px 12px; border: 2px solid black;}
+/* #link h3:hover{background: #74889e;} */
+#link h3 button:hover{cursor: pointer;background-color:#74889e;outline: black;  border:none;}
+
+#link12{width: 20%; height: 60px; float: left;}
+
+#link12 h3 {text-align: center;line-height: 40px; }
+#link12 h3 button{background-color:black;outline: none;font-size: 16px;font-weight: 550;color: white; padding: 8px 12px; border: 2px solid black;}
+/* #link h3:hover{background: #74889e;} */
+#link12 h3 button:hover{cursor: pointer;background-color:#74889e;outline: black;  border:none;}
+
+
+#bodyleft{width: 20%; height: 660px; background:#3f5267;float:left;overflow-y:auto}
+#bodyleft h3{margin-bottom:2%;text-align: center;color: #fff; font-size: 12px; font-weight: bold; background: #74889e; height: 30px; line-height: 30px;}
+#bodyleft ul{list-style-type: none}
+#bodyleft ul li{transition: all 0.3s;width: 100%;height: 30px;line-height: 30px;padding-left: 5%;box-sizing: border-box;}
+#bodyleft ul li a{transition: all 0.3s;display:block;text-decoration: none;color: #fff;font-size: 12px; text-shadow: none}
+#bodyleft ul li:hover{background:#fff}
+#bodyleft ul li:hover a {color:#3f5267;padding-left: 3%; box-sizing: border-box; }
+
+#bodyright{width: 80%; height: 660px; background:#fff;float:left;overflow-y:auto}
+#bodyright h3{text-align: center;color: #fff; font-size: 12px; font-weight: normal; background: #74889e; height: 30px; line-height: 30px;}
+
+#bodyright1 h3{text-align: center;color: #fff; font-size: 12px; font-weight: normal; background: #74889e; height: 30px; line-height: 30px;}
+
+
+#add{width:100%;padding:2%; box-sizing:border-box;}
+#add details{width: 60%;margin: auto;}
+#add details summary{cursor:pointer;text-align:center;outline:none;width:100%;box-sizing: border-box;height:30px;line-height:30px;color:#3f5267;border:1px solid #3f5267;font-size:12px}
+#add details form{background:#74889e;padding: 3%;box-sizing:border-box;}
+#add details form input{margin-bottom: 2% ;font-size: 14px;width: 100%; height: 30px;outline: none;padding-left:3%;box-sizing: border-box;}
+#add details form select{margin-bottom: 2% ;font-size: 12px;width: 100%; height: 30px;outline: none;padding-left:3%;box-sizing: border-box;}
+#add details form textarea{margin-bottom: 2% ;font-size: 14px; width: 100%; height: 100px;outline: none;padding:3%;box-sizing: border-box;}
+#add details form button {color: #fff;width: 40%;height: 30px;font-size: 12px ;background: none; outline: none; border: 1px solid #fff;}
+#add details form button:hover{cursor: pointer; background: #fff;color: #3f5267;}
+
+#add table{width: 60%; margin: auto; border: 1px solid #000;}
+#add table tr th{height: 35px;background: #3f5267;color: #fff; text-align: left; padding-left: 2%;box-sizing: border-box;font-size: 14px;}
+#add table tr td {color: #000;height: 28px;padding-left: 2%; box-sizing: border-box;font-size: 14px;}
+
+#edit_form{width:50%;padding:2%; box-sizing:border-box;margin: auto;}
+#edit_form input{margin-bottom: 2% ;font-size: 12px;width: 100%; height: 30px;outline: none;padding-left:3%;box-sizing: border-box;}
+#edit_form select{margin-bottom: 2% ;font-size: 12px;width: 100%; height: 30px;outline: none;padding-left:3%;box-sizing: border-box;}
+#edit_form  button {cursor: pointer;color: #3f5267;width: 40%;height: 30px;font-size: 12px ;background: none; outline: none; border: 1px solid #3f5267;}
+#edit_form  button:hover{color: #fff;background: #3f5267;}
+
+#cont {width: 100%;}
+#cont form table{width: 70%; padding: 5%;margin: auto; box-sizing: border-box;}
+#cont form table tr td{width: 50%;height: 35px;font-size: 16px;}
+#cont form table tr td input{width: 100%;height: 25px;outline: none;font-size: 15px;}
+#cont form button{cursor: pointer;width: 20%; height: 32px; border: 1px solid #3f5267;font-size: 14px;}
+#cont form button:hover{background: #3f5267; color: #fff;}
+
+#about{width: 60%;  box-sizing: border-box; }
+#about textarea{margin-top: 1%;width: 80%; height: 150px; margin-left: 42%; padding: 2%;outline: none;  box-sizing: border-box;}
+#about form button{float: right;cursor: pointer;width: 20%;margin-top: -2%; height: 32px; border: 1px solid #3f5267;margin-right: 0%;font-size: 14px;}
+#about form button:hover{background: #3f5267; color: #fff;}
+
+#about1{width: 60%;  box-sizing: border-box; }
+#about1 form h2{color: #3f5267;font-weight: normal;height: 60px;margin-left: 40%; line-height: 60px; width: 100%;box-sizing: border-box; padding: 0% 2% 0% 2%;}
+#about1 textarea{width: 80%; height: 150px; margin-left: 42%; padding: 2%;outline: none;  box-sizing: border-box;}
+#about1 form button{float: right;cursor: pointer;width: 20%;margin-top: -2%; height: 32px; border: 1px solid #3f5267;font-size: 14px;}
+#about1 form button:hover{background: #3f5267; color: #fff;}
+
+#c_details textarea{width: 40%; height: 150px; margin-left: 26%; padding: 2%;outline: none;  box-sizing: border-box;}
+#c_details form button{cursor: pointer;width: 10%; height: 32px;position: absolute; top: 55%;left: 64%; border: 1px solid #3f5267;font-size: 14px;}
+#c_details form button:hover{background: #3f5267; color: #fff;}
+
+
+#c_goal h2{color: #3f5267;font-weight: normal;height: 60px;margin-left: 23%; line-height: 60px; width: 100%;box-sizing: border-box; padding: 0% 2% 0% 2%;}
+#c_goal p{color: #3f5267;font-weight: normal;height: 50px;margin-left: 30%; line-height: 30px; width: 70%;box-sizing: border-box;margin-bottom: 3%; }
+
+#c_price p{color: #3f5267;font-weight: normal;height: 50px;margin-left: 23%; line-height: 30px; width: 70%;box-sizing: border-box;margin-bottom: 1%; }
+#c_price h2{color: #3f5267;font-weight: normal;height: 60px;margin-left: 21%; line-height: 60px; width: 100%;box-sizing: border-box; padding: 0% 2% 0% 2%;}
+
+#language{box-shadow: 1px 1px 2px #74889e;cursor: pointer;width: 11%;margin-left: 1%; height: 35px; border-width: 0px; }
+#levels{box-shadow: 1px 1px 2px #74889e;cursor: pointer;width: 11%;margin-left: 1%; height: 35px; border-width: 0px; }
+#category{box-shadow: 1px 1px 2px #74889e;cursor: pointer;width: 11%;margin-left: 1%; height: 35px; border-width: 0px; }
+
+
+#course_price button{float: right;cursor: pointer;width: 11.5%; height: 32px; margin-right: 26%; margin-top: 1%; border: 1px solid #3f5267;font-size: 14px;}
+#course_price button:hover{background: #3f5267; color: #fff;}
+#course_price input{width: 12%;margin: 0% 2% 0% 1%;border: 1px solid #3f5267; height: 35px;padding-left: 0.5%; box-sizing: border-box;}
+#discount{box-shadow: 1px 1px 2px #74889e;cursor: pointer;width: 11%;margin-left: 1%; height: 35px; border-width: 0px; }
+#prices{box-shadow: 1px 1px 2px #74889e;cursor: pointer;width: 15%;margin-left: 15%; height: 35px; border-width: 0px; }
+#discounts{box-shadow: 1px 1px 2px #74889e;cursor: pointer;width: 15%;margin-left: 2%; height: 35px; border-width: 0px; }
+
+
+
+/* 
+#wrap{margin-top: 90px;} */
+#c_edit_l{height: 1000%;width: 20%; float: left;background:#3f5267;box-sizing: border-box;position: fixed;}
+#c_edit_l h1{color: #e6e6e6; text-shadow: 3px 3px 3px #000; font-size: 25px; text-align: center; margin:2% 0% 0% -2%; font-weight: normal;}
+#c_edit_l ul{ padding: 3%; list-style-type: none;}
+#c_edit_l ul li{margin: 2%; height: 50px; line-height: 50px;padding-left: 10%;}
+#c_edit_l ul li:hover{background: #fff; cursor: pointer;}
+#c_edit_l ul li:hover a{color: #3f5267;}
+#c_edit_l ul li:hover i{color: #3f5267;}
+#c_edit_l ul li i{color: #e6e6e6;width: 25px;}
+#c_edit_l a{transition: all 0.3s ease-in-out;color: #fff;text-decoration: none;font-size: 15px;font-family: Georgia, 'Times New Roman', Times, serif;}
+#c_edit_l a:hover{text-decoration: underline;}
+#c_edit_l button{transition: all 0.3s ease-in-out;outline: none;margin-left: 12%;cursor: pointer; height: 45px; width: 50%;}
+#c_edit_l button:hover{background:#4fa4ff;outline: none;border-width: 0px;color: #fff;}
+
+
+#c_edit_r{height: 500px;width:75%;padding: 0% 2% 2% 2%; background: #fff;box-sizing: border-box;float: left; margin-left: 20%;position:fixed}
+#c_edit_r h2{color: #3f5267;font-weight: normal;height: 60px; line-height: 60px; width: 100%;box-sizing: border-box; padding: 0% 2% 0% 2%;}
+#c_edit_input{width: 96%;margin: 0% 2% 0% 2%;background: #e6e6e6;border-radius: 15px;border: 1px solid #3f5267; height: 35px;padding-left: 2%; box-sizing: border-box;}
+#c_edit_input input{width: 90%;height: 35px; background:none; outline: none;border-width: 0px; }
+#c_edit_input p {float: right;width: 8%; border-width: 0px;border-top-right-radius: 15px;border-bottom-right-radius: 15px;background: #3f5267; color: #fff; height: 33px;line-height: 33px; text-align: center;}
+#c_edit_r form img{float: left;;transition: all 0.3s ease-in-out;margin: 0% 2% 0% 2%;height: 200px; width: 230px;}
+#c_edit_r form img:hover{border-radius: 100%; cursor: pointer;}
+#c_edit_r form span{font-size: 18px; color: #74889e;}
+#c_img{width: 70%;margin: 2% 0% 2% 0%;float: left;outline: none;background: #e6e6e6;border-radius: 15px;border: 1px solid #3f5267;padding-top: 0.5%; height: 35px;padding-left: 2%; box-sizing: border-box;}
+#c_edit_r form button{width: 12%; transition: all 0.3s ease-in-out;cursor: pointer;border-radius: 15px;outline: none;height: 35px; position: absolute;top: 78%; left:81%; background: none;color: #3f5267; border: 1px solid #3f5267;}
+#c_edit_r form button:hover{background: #3f5267; color: #fff;border-radius: 0px;}
+
+input[name="inst_name"]{width: 30%;outline: none;position: absolute; top:3%;left: 34%;margin: 0% 0% 0% 2%;border: 1px solid #3f5267; height: 35px;padding-left: 0.5%; box-sizing: border-box;}
+#ins_name{color: #3f5267;width: 30px;font-weight: normal;height: 60px;line-height: 60px; box-sizing: border-box;display: inline; padding: 0% 2% 0% 2%;}
+
+#instructor_input textarea{width: 80%; height: 130px; margin-left: 2%; padding: 2%;outline: none;  box-sizing: border-box;}
+
+/* #c_video {
+    width: 40%;
+    left: 23%;
+    position: absolute;
+    margin: 1% 0% 2% 3%;
+    float: left;
+    outline: none;
+    background: #e6e6e6;
+    border-radius: 15px;
+    border: 1px solid #3f5267;
+    padding-top: 0.5%;
+    height: 38px;
+    padding-left: 2%;
+    box-sizing: border-box;
+} */
+#c_video {
+    width: 40%;
+    left: 23%;
+    position: absolute;
+    margin: 3% 0% 2% 0%;
+    float: left;
+    outline: none;
+    background: #e6e6e6;
+    border-radius: 15px;
+    border: 1px solid #3f5267;
+    padding-top: 0.5%;
+    height: 38px;
+    padding-left: 2%;
+    box-sizing: border-box;
+}
+    #video_details {
+        float: right;
+    cursor: pointer;
+    width: 11%;
+    height: 32px;
+    margin-right: 26%;
+    margin-top: 4%;
+    border: 1px solid #3f5267;
+    font-size: 14px;}
+
+/* #upload_video{margin-left: -11%;width: 50%;border: 1px solid #3f5267;height: 35px;padding-left: 0.5%;box-sizing: border-box;outline:none; } */
+
+#upload_video{margin-left: 23%;width: 50%;border: 1px solid #3f5267;height: 35px;padding-left: 0.5%;box-sizing: border-box;outline:none; }
+#nextVideo{margin-left: 63%;margin-top: 1%;cursor: pointer;width: 11.5%;height: 32px;border: 1px solid #3f5267;font-size: 14px;}
+
+
+#c_edit_input1{width: 96%;margin: 0% 2% 0% 50%;background: #e6e6e6;border-radius: 15px;border: 1px solid #3f5267; height: 35px;padding-left: 2%; box-sizing: border-box;}
+#c_edit_input1 input{width: 90%;height: 35px; background:none; outline: none;border-width: 0px; }
+#c_edit_input1 a {float: right;width: 8%; border-width: 0px;border-top-right-radius: 15px;border-bottom-right-radius: 15px;margin-bottom: 3%;background: #3f5267; color: #fff; height: 33px;line-height: 33px; text-align: center;}
+#c_edit_input1 button{width: 12%; transition: all 0.3s ease-in-out;cursor: pointer;border-radius: 15px;outline: none;height: 35px;  background: none;color: #3f5267; border: 1px solid #3f5267;}
+#c_edit_input1 button:hover{background: #3f5267; color: #fff;border-radius: 0px;}
+
+#c_edit_input2{width: 96%;margin: 0% 2% 0% 50%;background: #e6e6e6;border-radius: 15px;border: 1px solid #3f5267; height: 35px;padding-left: 2%; box-sizing: border-box;}
+#c_edit_input2 input{width: 90%;height: 35px; background:none; outline: none;border-width: 0px; }
+#c_edit_input2 a {float: right;width: 8%; border-width: 0px;border-top-right-radius: 15px;border-bottom-right-radius: 15px;margin-bottom: 3%;background: #3f5267; color: #fff; height: 33px;line-height: 33px; text-align: center;}
+#c_edit_input2 button{width: 10%;margin-left: 1px; transition: all 0.3s ease-in-out;cursor: pointer;border-radius: 15px;outline: none;height: 35px;  background: none;color: #3f5267; border: 1px solid #3f5267;}
+#c_edit_input2 button:hover{background: #3f5267; color: #fff;border-radius: 0px;}
+
+
+
+#course_share{width: 100%;  }
+
+
+#cars{box-shadow: 1px 1px 2px #74889e;cursor: pointer;width: 11.5%;margin-left: 1%; height: 35px; border-width: 0px; }
+
+
+
+/*To make the text go into the center we have
+ to give the same line height as that of the height 
+ of the header     
+ //i have to style by providing # if i use the div id=""
+h1 or h2 or h3 are just one of the boxes where we put the 
+text inside them.
+// display:block inside the h3 a is done so that whenever we hover inside the
+block it shows the normal mouse but when we hover in the element or data it shows
+a hand like structure.
+
+// box sizing not to change the outer border even though the inner elements are given 
+the padding or margin.
+
+The main meaning of using over flow auto is that if some more text is put on a div 
+then a scroll bar is auto generated.
+ */

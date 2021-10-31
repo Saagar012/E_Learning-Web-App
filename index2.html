@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset ="UTF-8">
+<title> Video PopUp | Javascript </title>
+<link rel="stylesheet" href="style2.css">
+</head>
+    <body>
+      <button class="btn btn-sm btn-dark" id="trailer">Trailer</button>
+
+     <button class="btn btn-sm btn-dark" id="movieNoads">Movie</button>
+
+
+                    <video width="320" height="240" controls style="margin-top: -4%; outline:none;">
+                    <source src="trailer.mp4" type="video/mp4">
+                    </video>
+ <details style="display: inline;margin-left: 67%; outline:none;"><summary> Watch Intro</summary>
+                    <video width="320" height="240" controls style="outline:none;">
+                    <source src="trailer.mp4" type="video/mp4">
+                    </video>
+                    </details>
+
+
+<script type="text/javascript"> 
+
+    var trailer = document.getElementById('trailer');
+    trailer.setAttribute('data-toggle', 'modal'); 
+    trailer.setAttribute('data-target', '#myModal2');
+
+   var movieNoads = document.getElementById('movieNoads');
+   movieNoads.setAttribute('data-toggle', 'modal'); 
+   movieNoads.setAttribute('data-target', '#myModal2');
+</script>
+ 
+ <video controls playsinline id="player" width="100%">
+
+      <script type="text/javascript">
+
+        var video = document.getElementById('player');
+
+         document.getElementById('trailer').onclick = function () {
+            document.getElementById("player").style.display = "block";
+            video.setAttribute('src', 'trailer.mp4');
+            video.play();
+
+          }
+
+
+          document.getElementById('movieNoads').onclick = function () {               
+            document.getElementById("player").style.display = "block";
+            video.setAttribute('src', 'trailer.mp4');
+            video.play();
+          }
+      document.getElementById("player").style.display = "none";
+
+      </script>
+
+    </video>
+  
+    </body>
+</html>
+
+ 

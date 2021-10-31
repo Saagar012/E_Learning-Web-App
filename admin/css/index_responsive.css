@@ -1,0 +1,193 @@
+@media screen and (max-device-width: 1000px) {
+    #header {
+        height: 70px;
+    }
+    #logo h2 {
+        line-height: 70px;
+    }
+    #logo h2 a {
+        font-size: 23px;
+        
+    }
+    #bodyright h3 {
+        font-size: 14px;
+        height: 32px;
+        line-height: 32px;
+    }
+    #bodyleft h3 {
+        height: 32px;
+        line-height: 32px;
+    }
+    #bodyleft {
+        width: 21%;
+    }
+    #bodyright {
+        width: 79%;
+    }
+
+}
+
+@media screen and (max-device-width: 860px) {
+    #bodyright {
+        width: 75%;
+    }
+    #bodyleft {
+        width: 25%;
+        height: 700px;
+    }
+    #bodyright h3 {
+        font-size: 15px;
+        height: 36px;
+        line-height: 34px;
+    }
+    #bodyleft h3 {
+        height: 36px;
+        line-height: 35px;
+        font-size: 13px;
+    }
+    #bodyleft ul li a {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-device-width: 750px) {
+    #bodyleft h3 {
+        height: 36px;
+        line-height: 35px;
+        font-size: 15px;
+    }
+    #bodyleft ul li {
+        height: 35px;
+        line-height: 35px;
+
+    }
+    #bodyleft {
+        
+        height: 810px;
+    }
+    #bodyright h3 {
+        font-size: 17px;
+    }
+    #link h3 button {
+        font-size: 17px;
+
+    }
+    #bodyleft ul li a {
+        font-size: 15px;
+    }
+    #title h2 {
+        font-size: 21px;
+
+    }
+
+}
+@media screen and (max-device-width: 700px) {
+    #bodyleft {
+        height: 840px;
+        width: 30%;
+    }
+    #bodyleft ul li {
+        height: 40px;
+        line-height: 40px;
+    }
+    #bodyright {
+        width: 70%;
+    }
+}
+@media screen and (max-device-width: 700px) {
+    #header {
+        height: 80px;
+    }
+    #logo h2 {
+        line-height: 80px;
+    }
+    #title h2 {
+        line-height: 70px;
+        font-size: 22px;
+
+    }
+    #link h3 button {
+        font-size: 18px;
+    }
+    #link h3 {
+        text-align: center;
+        line-height: 70px;
+    }
+    #bodyleft ul li {
+        height: 45px;
+        line-height: 45px;
+    }
+    #bodyleft ul li a {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-device-width: 550px) {
+    #header {
+        height: 80px;
+    }
+    #bodyleft h3 {
+        height: 42px;
+    line-height: 42px;
+    font-size: 17px;
+    }
+    #bodyright h3 {
+        font-size: 17px;
+        height: 42px;
+        line-height: 42px;
+    }
+
+}
+
+
+@media screen and (max-device-width: 550px) {
+#bodyleft {
+    height: 1000px;
+    width: 40%;
+}
+#bodyright {
+    width: 60%;
+}
+#bodyleft ul li a {
+    font-size: 20px;
+}
+#bodyleft ul li {
+    height: 50px;
+    line-height: 50px;
+}
+#bodyright h3 {
+    font-size: 20px;
+}
+#bodyleft h3 {
+    height: 42px;
+    line-height: 42px;
+    font-size: 20px;
+}
+}
+@media screen and (max-device-width: 400px) {
+    #bodyleft h3 {
+        font-size: 22px;
+    }
+    #bodyright h3 {
+        font-size: 22px;
+    }
+    #bodyleft ul li a {
+        font-size: 24px;
+    }
+    #logo h2 a {
+        font-size: 23px;
+        margin-left: 28px;
+    }
+    #title h2 {
+        line-height: 80px;
+    }
+    #link h3 button {
+       
+        line-height: 60px;
+    }
+    #bodyleft ul li {
+        height: 55px;
+        line-height: 55px;
+    }
+
+}

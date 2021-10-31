@@ -1,0 +1,226 @@
+@media screen and (max-device-width: 1300px) {
+    #header {
+        width: 128%;
+        height: 65px;
+        background: #0b0c0e;
+    }
+    
+    #logo h2 a {
+        text-decoration: none;
+        color: #f2f8ff;
+        font-size: 24px;
+        margin-left: -23%;
+        height: 75px;
+        line-height: 75px;
+        text-shadow: 3px 3px 3px rgb(126 89 89);
+    }
+    #title h2 {
+        color: #f2f8ff;
+        font-size: 22px;
+        text-align: center;
+        line-height: 65px;
+        text-shadow: 3px 3px 3px #000;
+    }
+    #link h3 button {
+        
+        line-height: 44px;
+        font-size: 19px;
+    
+    }
+    #c_details textarea {
+        border: 1px solid black;
+        height: 276px;
+        width: 50%;
+        margin-left: 27%;
+        padding: 2%;
+        outline: none;
+        box-sizing: border-box;
+    }
+    #c_goal h2 {
+        
+        margin-left: 25%;
+   
+    }
+    #c_details form button {
+        
+        position: absolute;
+        top: 100%;
+        left: 64%;
+        height: 35px;
+       
+    }
+    #c_edit_l a {
+      
+        font-size: 16px;
+      
+    }
+}
+@media screen and (max-device-width: 1250px) {
+    #header {
+        width: 133%;
+        height: 65px;
+        background: #0b0c0e;
+    }
+    #c_edit_l {
+        height: 1000%;
+        width: 23%;
+        float: left;
+        background: #3f5267;
+        box-sizing: border-box;
+        position: fixed;
+    }
+    #c_goal h2 {
+        margin-left: 29%;
+    }
+    #c_details textarea {
+
+        margin-left: 31%;
+      
+    }
+}
+@media screen and (max-device-width: 1060px) {
+    #header {
+        width: 133%;
+        height: 65px;
+        background: #0b0c0e;
+    }
+    #c_edit_l {
+    
+        width: 24%;
+        
+    }
+    #c_goal h2 {
+        margin-left: 33%;
+    }
+    #c_details textarea {
+        margin-left: 36%;
+    }
+    #prices {
+       
+        width: 17%;
+        
+    }
+    #c_edit_l a {
+        font-size: 18px;
+    }
+    #discounts {
+       
+        width: 17%;
+        
+    }
+    #c_details form button {
+      
+        width: 12%;
+    }
+}
+@media screen and (max-device-width: 962px) {
+    #c_details form button {
+        position: absolute;
+        top: 98%;
+        left: 64%;
+    }
+}
+@media screen and (max-device-width: 942px) {
+    #c_details form button {
+        position: absolute;
+        top: 92%;
+        left: 64%;
+    }
+}
+@media screen and (max-device-width: 890px) {
+    #c_details form button {
+        position: absolute;
+        top: 91%;
+        left: 64%;
+    }
+}
+@media screen and (max-device-width: 850px) {
+    #c_details form button {
+        position: absolute;
+        top: 88%;
+        left: 64%;
+    }
+}
+@media screen and (max-device-width: 800px) {
+    #c_details form button {
+        top: 85%;
+      
+    }
+}
+@media screen and (max-device-width: 750px) {
+    #c_details form button {
+        
+        top: 80%;
+     
+    }
+}
+@media screen and (max-device-width: 700px) {
+    #header {
+        width: 141%;
+        height: 65px;
+        background: #0b0c0e;
+    }
+    #c_details form button {
+        
+        top: 72%;
+        
+    }
+}
+@media screen and (max-device-width: 650px) {
+    #c_details form button {
+     
+        top: 67%;
+      
+    }
+}
+@media screen and (max-device-width: 600px) {
+    #c_details form button {
+        top: 62%; 
+        left: 68%;
+    }
+    #c_edit_l a {
+        font-size: 22px;
+    }
+    #c_edit_l {
+        width: 28%;
+    }
+    #c_details textarea {
+        margin-left: 43%;
+    }
+    #c_goal h2 {
+        margin-left: 41%;
+    }
+    #prices{
+        margin-left: 23%;
+    }
+}
+@media screen and (max-device-width: 580px) {
+    #c_details form button {
+        top: 55%;
+      
+    }
+}
+@media screen and (max-device-width: 500px) {
+    #c_details form button {
+        top: 50%;
+      
+    }
+}
+@media screen and (max-device-width: 450px) {
+    #c_details form button {
+        top: 47%;
+      
+    }
+}
+@media screen and (max-device-width: 400px) {
+    #c_details form button {
+        top: 43%;
+      
+    }
+}
+@media screen and (max-device-width: 375px) {
+    #c_details form button {
+        top: 25%;
+      
+    }
+}

@@ -1,0 +1,84 @@
+This is the documentation for the elearning web application i am making with the help of php and pdo.
+
+1. Creating the Admin Header Section.
+	The first step is to create a index.php file in admin folder.Then a style.css file inside the admin/css folder.
+	After then a header.php file inside the admin/inc folder.This is made seperately so that it can be called from the multiple other files 
+	to get the heading section on the particular webpage.
+2. Creating the left side section of the Admin Page.
+	So, we will be creating a body left section as bodyleft.php  inside the admin/inc folder.//we don't see any code of php in the webbrowser if we inspect a particular website 
+												// and this is because the php runs in the server side and sends the file in the format of
+												//html ,css and javascript.
+	
+3. The third step is to make the database connection with PDO.
+	We then create a database named as e_learning in which we create a first table as cat(for storing the categories).
+	Then we create a new php file for the database connection named as dbo1.php which contains the query for the database connection through php.
+	After which we create a bodyright.php file for the body right section in the admin page which will be again stored inside the admin/inc folder.7 
+
+4.  if we had to go into the next page then we had to just pass the page name into the ahref tag but in our case we have to just make the changes in the pages only without going
+    into the next page which means i have to stay in the same page and make the changes in the content of the page as per the user action.So, for this i will be using 
+    < a href="index.php?cat" if the user clicks on the category icon where cat is the getname and based on this getname we will be making the changes in the font or the webpage screen.
+    In the dashboard section the present page link will be used which is just index.php.
+5.  So, i will be creating a new file called as cat.php and this file will be stored in the e_learning/admin folder where the index.php file is present.
+6.  Here one of the good tag i get to know is the detail tag what it does is it gives a small arrow like thing infront which becomes down arrow if it is clicked which makes the user
+    interface very good if we have to display something when the user clicks that particular element. After this we create a small div for adding the category and icons dynamically which
+    can be edited and deleted directly from the interface. for this we create a details tag inside which we make a summary tag for the heading section and inside which a form tag which
+    includes 2 input tag for adding the category and icon and below a button for the addition of them in the database.
+
+7.Adding the Categories dynamically 
+Now the entered category should be stored in the database so for this we are going to create a new php file known as function.php(e_learning/admin/inc folder) which does all the
+database stuffs(eg- fetching,displaying, updating and deleting).
+Since header.php will be called in every section of the admin page so we have put the include function("inc/function.php") in the header.php file.
+
+8.Adding the subcategories dynamically.
+ For it i am creating a sub_cat.php file in a e_learning/admin folder. Then for the rest whatever the steps we have taken for the cat.php or to add the category in our database and 
+ whatever the things we have done to extract the data from the caegory table we follow the same steps for this as well.From here one of the thing which i have understood is that 
+ if i have to put a combo box which i put in the sub category section the a tag called select tag is used inside which option tag are put to keep the value in the combobox.
+
+9. Displaying all the categories in the admin panel.
+10.Updating the categories in the admin panel.
+11.Updating the subcategories in the admin panel.
+12.Deleting Category Dynamically.
+13.Creating the language page.
+14.Upadating and deleting the language dynamically.
+15.Now we are going to make the terms and condition page.
+16.Update and delete the terms and condition page.
+17.Creating the Contact Us page.
+18.Update Contact Us page.
+19. Creating the FAQs  page where the frequently asked questions and answers are added dynamically from the website to the database.
+20. Display and update the FAQs.
+21. Creating and updating the About Us Page.
+ *************************************************************************************************************************************
+22. The admin side is haalted for sometime noww and the user side page is created after this part.
+23. Creating the header in which link for the social medias are given date and time and a small description is put on the top of the header.
+24. Creating the user side category design.
+25. Creating the user side footer section.
+26. Putting all the sections required in the footer of the user side interface.
+27. navigation menu designing.(for this a cat_menu.php file is made)
+28. Login and signup form designing.
+29. Getting social links dynamically.
+30. Getting category dynamically which means if we add something in the admin panel then it will be seen directly in the user panel and this is possible as we first add the data to the  
+    database and directly gain the data from the database.
+31. Creating the panel when someone click the cart of the user panel. For this there is a section which is made just below the main header of the panel which is crumb it is attached 
+    with the main header.
+32. Creating the course details page when someone clicks on the particular course in the user panel.
+33. Creating the course description section.
+34. Designing teacher page.For this a file teacher.php is created in the e learning folder.
+35. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+adminpassword
+
+
+
+ 

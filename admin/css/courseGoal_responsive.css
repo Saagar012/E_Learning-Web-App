@@ -1,0 +1,152 @@
+@media screen and (max-device-width: 1500px) {
+#header {
+    width: 123%;
+    height: 65px;
+    background: #0b0c0e;
+}
+
+#logo h2 a {
+    text-decoration: none;
+    color: #f2f8ff;
+    font-size: 24px;
+    margin-left: -23%;
+    height: 75px;
+    line-height: 75px;
+    text-shadow: 3px 3px 3px rgb(126 89 89);
+}
+#title h2 {
+    color: #f2f8ff;
+    font-size: 22px;
+    text-align: center;
+    line-height: 65px;
+    text-shadow: 3px 3px 3px #000;
+}
+#link h3 button {
+    
+    line-height: 44px;
+    font-size: 19px;
+
+}
+#c_edit_l h1 {
+    font-size: 27px;
+
+}
+#c_edit_l a {
+    transition: all 0.3s ease-in-out;
+    color: #fff;
+    text-decoration: none;
+    font-size: 21px;
+    position: fixed;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#c_goal{
+    margin-left: 2%;
+}
+#c_goal p {
+
+    font-size: 20px;
+
+    
+}
+#c_goal h2 {
+    font-size: 27px;
+    
+}
+#c_edit_input2 {
+    height: 40px;
+
+}
+#c_edit_input2 a {
+    height: 40px;
+  
+}
+#c_edit_input1 {
+    height: 40px;
+   
+    }
+    #c_edit_input1 a {
+       
+        height: 40px;
+      
+    }
+}
+@media screen and (max-device-width: 1410px) {
+    #c_goal p {
+
+        margin-left: 30%;
+        line-height: 32px;
+        width: 90%;
+        margin-bottom: 4%;
+        
+    }
+}
+@media screen and (max-device-width: 1330px) {
+    #c_goal {
+        margin-left: 6%;
+        position: fixed;
+    }
+    #c_goal p {
+
+        margin-left: 30%;
+        line-height: 32px;
+        width: 90%;
+        
+    }
+    #c_edit_input1 {
+        margin: 0% 2% 0% 50%;
+    }
+    #c_edit_input2 {
+        margin: 2% 2% 0% 50%;
+    
+    }
+    #c_goal p {
+        height: 66px;
+        margin-bottom: 5%;
+        width: 64%;
+        margin-top: -2%;
+        
+      
+    }
+    #c_goal h2 {
+        line-height: 34px;
+        margin-top: 1%;
+    }
+    #c_edit_l {
+        width: 23%;
+       
+       
+    }
+}
+@media screen and (max-device-width: 1050px) {
+    #c_goal h2 {
+        margin-left: 20%;
+        line-height: 60px;
+      
+    }
+    #c_edit_l {
+        width: 25%;
+    }
+    #c_goal p {
+
+        margin-bottom: 5%;
+     
+        margin-top: -1%;
+    }
+}
+@media screen and (max-device-width: 1020px) {
+    #c_goal h2 {
+        font-size: 25px;
+    }
+  
+    #c_edit_l a {
+      
+        font-size: 19px;
+       
+    }
+}
+@media screen and (max-device-width: 500px) {
+    #c_goal p {
+        font-size: 26px;
+        margin-bottom: 11%;
+    }
+}

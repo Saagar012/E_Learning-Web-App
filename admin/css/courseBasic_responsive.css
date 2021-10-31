@@ -1,0 +1,534 @@
+@media screen and (max-device-width: 1700px) {
+  #c_edit_l {
+    height: 1000%;
+    width: 18%;
+    float: left;
+    background: #3f5267;
+    box-sizing: border-box;
+    position: fixed;
+  }
+}
+
+@media screen and (max-device-width: 1335px) {
+  #c_video {
+    left: 23%;
+    position: absolute;
+    margin: 4% 0% 2% 0%;
+  }
+  #video_details {
+    margin-top: 5%;
+  }
+}
+@media screen and (max-device-width: 1335px) {
+  #c_edit_l {
+    height: 1000%;
+    width: 21%;
+  }
+  #c_price {
+    margin-left: 4%;
+  }
+  #c_video {
+    margin: 4% 0% 2% 3%;
+  }
+}
+
+@media screen and (max-device-width: 1070px) {
+  #c_price p {
+    margin-bottom: 2%;
+  }
+  #video_details {
+    margin-top: 5%;
+  }
+}
+
+@media screen and (max-device-width: 970px) {
+  #c_edit_l {
+    height: 1000%;
+    width: 22%;
+  }
+  #c_price p {
+    margin-bottom: 2%;
+  }
+  #c_edit_l h1 {
+    font-size: 21px;
+  }
+
+  #c_price p {
+    margin-left: 25%;
+  }
+  #c_price h2 {
+    margin-left: 23%;
+  }
+  #upload_video {
+    margin-left: 25%;
+  }
+  #c_video {
+    margin: 5% 0% 2% 5%;
+    width: 49%;
+  }
+  #video_details {
+    margin-top: 7%;
+  }
+}
+@media screen and (max-device-width: 915px) {
+  #c_edit_l {
+    width: 23%;
+  }
+  #c_price p {
+    margin-left: 27%;
+  }
+  #c_price h2 {
+    margin-left: 25%;
+  }
+  #upload_video {
+    margin-left: 28%;
+  }
+  #language {
+    margin-left: 16%;
+  }
+  #c_video {
+    margin: 5% 0% 2% 8%;
+  }
+  #course_price button {
+    width: 12.5%;
+
+    margin-right: 13%;
+  }
+  #course_price input {
+    width: 22%;
+  }
+}
+@media screen and (max-device-width: 860px) {
+  #header {
+    width: 103%;
+   
+}
+  #c_edit_l {
+    width: 24%;
+  }
+  #c_price p {
+    margin-left: 29%;
+  }
+  #c_price h2 {
+    margin-left: 27%;
+  }
+  #c_price p {
+    margin-bottom: 3%;
+  }
+  #language {
+    margin-left: 20%;
+  }
+  #upload_video {
+    margin-left: 29%;
+  }
+  #c_video {
+    margin: 5% 0% 2% 9%;
+  }
+  #video_details {
+    margin-right: 20%;
+  }
+}
+@media screen and (max-device-width: 820px) {
+  #c_edit_l {
+    width: 26%;
+  }
+  #c_price p {
+    margin-left: 31%;
+  }
+  #c_price h2 {
+    margin-left: 29%;
+  }
+  #language {
+    margin-left: 25%;
+  }
+  #upload_video {
+    margin-left: 31%;
+  }
+  #c_video {
+    margin: 5% 0% 2% 11%;
+  }
+  #upload_video {
+    margin-left: 32%;
+  }
+  #video_details {
+    margin-right: 18%;
+  }
+}
+@media screen and (max-device-width: 750px) {
+  #c_video {
+    margin: 6% 0% 2% 11%;
+  }
+  #video_details {
+    margin-top: 9%;
+  }
+  #c_edit_l {
+    width: 26%;
+  }
+  #c_edit_l a {
+    transition: all 0.3s ease-in-out;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+}
+@media screen and (max-device-width: 740px) {
+  #c_price p {
+    margin-bottom: 8%;
+    width: 67%;
+  }
+  #c_edit_l a {
+    font-size: 13px;
+  }
+}
+@media screen and (max-device-width: 640px) {
+  #c_edit_l a {
+    font-size: 12px;
+  }
+}
+@media screen and (max-device-width: 640px) {
+  #c_video {
+    margin: 8% 0% 2% 11%;
+    height: 29px;
+  }
+  #logo h2 a {
+    font-size: 17px;
+    margin-left: 10%;
+  }
+  #title h2 {
+    margin-left: 15%;
+    font-size: 17px;
+  }
+  #link h3 button {
+    font-size: 14px;
+  }
+}
+@media screen and (max-device-width: 620px) {
+  #header {
+    width: 108%;
+   
+}
+  #c_edit_l {
+    width: 28%;
+  }
+  #c_edit_l a {
+    font-size: 13px;
+  }
+  #c_price p {
+    font-size: 13px;
+    width: 59%;
+    margin-bottom: 10%;
+
+    margin-left: 36%;
+  }
+  #c_price h2 {
+    margin-left: 34%;
+  }
+  #language {
+    margin-left: 19%;
+    width: 22%;
+  }
+
+  #levels {
+    width: 23%;
+  }
+  #category {
+    width: 24%;
+    margin-top: 3%;
+    margin-left: 22%;
+  }
+  #course_price button {
+    width: 12.5%;
+    margin-right: 16%;
+  }
+  #upload_video {
+    margin-left: 37%;
+  }
+  #c_video {
+    margin: 8% 0% 2% 16%;
+    height: 29px;
+  }
+  #video_details {
+    margin-right: 15%;
+  }
+}
+@media screen and (max-device-width: 590px) {
+  #title h2 {
+    font-size: 16px;
+  }
+}
+@media screen and (max-device-width: 580px) {
+  #c_edit_l {
+    width: 29%;
+  }
+  #c_price p {
+    margin-left: 37%;
+  }
+}
+@media screen and (max-device-width: 550px) {
+  #title h2 {
+    font-size: 14px;
+    line-height: 65px;
+  }
+  #c_edit_l a {
+    font-size: 12px;
+  }
+}
+@media screen and (max-device-width: 530px) {
+  #c_price p {
+    font-size: 13px;
+    width: 59%;
+    margin-bottom: 16%;
+    margin-left: 37%;
+  }
+  #c_edit_l a {
+    font-size: 11px;
+  }
+  #logo h2 a {
+    font-size: 15px;
+    margin-left: 26%;
+  }
+  #title h2 {
+    font-size: 14px;
+    line-height: 65px;
+  }
+  #link h3 button {
+    font-size: 12px;
+  }
+}
+@media screen and (max-device-width: 490px) {
+  #c_edit_l {
+    width: 29%;
+  }
+
+  #header {
+    width: 103%;
+}
+  #language {
+    margin-left: 30%;
+    width: 22%;
+  }
+  #category {
+    width: 24%;
+    margin-top: 3%;
+    margin-left: 33%;
+    margin-bottom: 8%;
+  }
+  #c_edit_l h1 {
+    font-size: 17px;
+  }
+  #upload_video {
+    margin-left: 40%;
+  }
+  #c_video {
+    margin: 9% 0% 2% 19%;
+    height: 29px;
+  }
+  #c_price p {
+    margin-left: 40%;
+    font-size: 12px;
+    width: 55%;
+  }
+  #c_price h2 {
+    margin-left: 37%;
+  }
+  #course_price button {
+    width: 11.5%;
+    margin-top: -6%;
+    width: 16.5%;
+    margin-right: 10%;
+  }
+  #video_details {
+    margin-right: 9%;
+    width: 16%;
+}
+}
+@media screen and (max-device-width: 475px) {
+    #c_edit_l a {
+        font-size: 11px;
+    }
+    #c_edit_l {
+        width: 30%;
+    }
+    #c_price h2 {
+        margin-left: 37%;
+        font-size: 20px;
+    }
+    #c_price p {
+    margin-bottom: 19%;
+    }
+}
+
+@media screen and (max-device-width: 465px) {
+    #title h2 {
+        font-size: 13px;
+        line-height: 65px;
+    }
+    #c_edit_l {
+        width: 31%;
+    }
+    #c_price p {
+        margin-left: 42%;
+      
+    }
+    #c_price h2 {
+        margin-left: 40%;
+       
+    }
+    #upload_video {
+        margin-left: 43%;
+    }
+    #c_video {
+        margin: 10% 0% 2% 22%;
+        height: 29px;
+    }
+    #video_details {
+        margin-top: 11%;
+    }
+}
+
+@media screen and (max-device-width: 450px) {
+    #c_edit_l {
+        width: 32%;
+    }
+    #c_price p {
+        margin-left: 46%;
+    }
+    
+    #language {
+        margin-left: 41%;
+        width: 48%;
+    }
+
+    #category {
+        width: 48%;
+        margin-left: 16%;
+        margin-bottom: 3%;
+    }
+#course_price input {
+    width: 48%;
+    margin-left: 44%;
+  
+}
+#course_price button {
+    width: 11.5%;
+    margin-top: 3%;
+    width: 47.5%;
+    margin-right: 5%;
+}
+#c_price h2 {
+    margin-left: 45%;
+    margin-top: 10%;
+    font-size: 23px;
+}
+    #c_video {
+        margin: 10% 0% 2% 25%;
+        height: 29px;
+    }
+    #header {
+        width: 114%;
+    }
+    #upload_video {
+        margin-left: 46%;
+    }
+    #video_details {
+        margin-right: 3%;
+        /* margin-left: -30%; */
+        margin-top: 11%;
+        width: 50%;
+    }
+}
+@media screen and (max-device-width: 430px) {
+  #header {
+    width: 118%;
+   
+}
+    #c_price p {
+        margin-left: 46%;
+        width: 59%;
+    }
+
+}
+@media screen and (max-device-width: 410px) {
+    #c_edit_l {
+        width: 31%;
+    }
+    #header {
+        width: 110%;
+    }
+    #language {
+        margin-left: 52%;
+        width: 48%;
+    }
+    #category {
+        width: 48%;
+        margin-left: 26%;
+        margin-bottom: 3%;
+    }
+    #course_price input {
+        width: 48%;
+        margin-left: 52%;
+    }
+    #course_price button {
+        width: 11.5%;
+        margin-top: 3%;
+        width: 47.5%;
+        margin-right: 0%;
+    }
+    #c_video {
+        margin: 2% 0% 2% 30%;
+        height: 29px;
+    }
+    #video_details {
+        margin-right: -2%;
+        /* margin-left: -30%; */
+        margin-top: 11%;
+        width: 50%;
+    }
+    #upload_video {
+        margin-left: 52%;
+    }
+    #c_price p {
+        margin-bottom: 28%;
+        margin-left: 50%;
+        width: 57%;
+    }
+    #c_price h2 {
+        margin-left: 53%;
+        margin-top: 10%;
+        font-size: 23px;
+    }
+  
+}
+
+@media screen and (max-device-width: 405px) {
+  #header {
+    width: 123%;
+   
+}
+    #c_edit_l {
+        width: 32%;
+    }
+    #link h3 button {
+        font-size: 11px;
+    }
+    #title h2 {
+        font-size: 11px;
+        line-height: 65px;
+    }
+}
+
+@media screen and (max-device-width: 390px) {
+    #c_edit_l {
+        width: 34%;
+    }
+    #header {
+        width: 119%;
+    }
+}
+@media screen and (max-device-width: 365px) {
+    #c_edit_l a {
+        font-size: 10px;
+    }
+}
+

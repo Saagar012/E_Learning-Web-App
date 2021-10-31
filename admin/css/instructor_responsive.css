@@ -1,0 +1,176 @@
+@media screen and (max-device-width: 1260px) {
+    #c_img {
+        position: absolute;
+    }
+    #c_edit_r form button {
+        position: absolute;
+        top: 78%;
+        left: 89%;
+        
+    }
+    #c_edit_l {
+        height: 1000%;
+        width: 21%;
+        float: left;
+        background: #3f5267;
+        box-sizing: border-box;
+        position: fixed;
+    }
+}
+
+@media screen and (max-device-width: 1195px) {
+    #c_edit_l h1 {
+        color: #e6e6e6;
+        text-shadow: 3px 3px 3px #000;
+        font-size: 22px;
+        text-align: center;
+        margin: 2% 0% 0% -2%;
+        font-weight: normal;
+    }
+    #c_edit_l {
+        height: 1000%;
+        width: 21%;
+        float: left;
+        background: #3f5267;
+        box-sizing: border-box;
+        position: fixed;
+    }
+    #c_edit_l a {
+        transition: all 0.3s ease-in-out;
+        color: #fff;
+        text-decoration: none;
+        font-size: 14px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+  
+}
+
+@media screen and (max-device-width: 1160px) {
+    #c_edit_r {
+        height: 500px;
+        width: 70%;
+        padding: 0% 2% 2% 2%;
+        background: #fff;
+        box-sizing: border-box;
+        float: left;
+        margin-left: 24%;
+        position: fixed;
+    }
+    #c_edit_l {
+        height: 1000%;
+        width: 23%;
+        float: left;
+        background: #3f5267;
+        box-sizing: border-box;
+        position: fixed;
+    }
+    #c_img {
+        width: 65%;
+
+    }
+    #c_edit_r form button {
+        position: absolute;
+        top: 75%;
+        left: 91%;
+    }
+}
+@media screen and (max-device-width: 1000px) {
+
+    #c_edit_l {
+        height: 1000%;
+        width: 25%;
+        float: left;
+        background: #3f5267;
+        box-sizing: border-box;
+        position: fixed;
+    }
+    #c_edit_r {
+        height: 500px;
+        width: 70%;
+        
+        margin-left: 26%;
+        position: fixed;
+    }
+    #c_img {
+        width: 63%;
+
+    }
+}
+@media screen and (max-device-width: 700px) {
+    #instructor_input textarea {
+        width: 80%;
+        border: 1px solid black;
+        height: 150px;
+        margin-left: 2%;
+        padding: 2%;
+        outline: none;
+        box-sizing: border-box;
+    }
+    #c_edit_r form button {
+        position: absolute;
+        top: 79%;
+        left: 91%;
+    }
+   
+}
+
+@media screen and (max-device-width: 450px) {
+    #c_edit_r {
+        height: 500px;
+        width: 70%;
+        margin-left: 27%;
+        position: fixed;
+    }
+    #c_img {
+        width: 55%;
+        padding-top: 1.5%;
+        height: 43px;
+       
+    }
+    #c_edit_r form button {
+        position: absolute;
+        top: 80%;
+        left: 81%;
+    }
+    #c_edit_l {
+        height: 1000%;
+        width: 27%;
+    }
+    #c_edit_l a {     
+        font-size: 16px;
+      
+    }
+}
+@media screen and (max-device-width: 430px) {
+    #c_img {
+        left: 4%;
+        top: 107%;
+        position: absolute;
+        width: 80%;
+        padding-top: 1.5%;
+        height: 43px;
+    }
+    #c_edit_r form button {
+        position: absolute;
+        top: 122%;
+        width: 25%;
+        left: 66%;
+        width: -8%;
+    }
+}
+@media screen and (max-device-width: 430px) {
+#c_edit_r {
+    height: 500px;
+    width: 68%;
+    margin-left: 36%;
+    position: fixed;
+    }
+    #c_edit_l {
+        height: 1000%;
+        width: 35%;
+    }
+    #c_edit_l a {
+        font-size: 20px;
+    }   
+
+}
